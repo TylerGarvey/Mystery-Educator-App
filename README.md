@@ -1,6 +1,6 @@
 This application has both Frontend and Backend functions.
 
--To Install this Application
+- To Install this Application
 
 1. Clone this application
 
