@@ -3,15 +3,14 @@ import React, { useEffect, useState } from 'react';
  
 const BoredPage =() => {
  
-    const [ isLoading, setLoading ] = useState(true);
+    const [ Loading, setLoading ] = useState(true);
     const [ pageContent, setPageContent ] = useState(null);
  
     useEffect(() => {
         fetch(`http://www.boredapi.com/api/activity/`)
-        .then((res) => res.json())
-        .then((data) => {
-            setPageContent(data);
-            setLoading(false);
+        .then(response => response.json())
+            .then(json => setPageContent(json));
+        
         })
     });
  
@@ -35,7 +34,7 @@ const BoredPage =() => {
             </div>
             {/* A section for what is returned from the api
              that only shows and changes when the API button is clicked */}
-            (isLoading ? <h2>Loading...</h2> :
+            (Loading ? <h2>Loading...</h2> :
                 (
                     <div class="boredApiContainer">
                         <div>
