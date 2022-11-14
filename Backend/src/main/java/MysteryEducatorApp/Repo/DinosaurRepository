@@ -1,0 +1,9 @@
+package MysteryEducatorApp.Models;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public interface DinosaurRepo extends CrudRepository<Dinosaur.java, Long> {
+
+}
