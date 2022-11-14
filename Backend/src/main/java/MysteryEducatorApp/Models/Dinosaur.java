@@ -35,4 +35,8 @@ public class Dinosaur {
     public String getDescription() {
         return description;
     }
+    public Dinosaur() {
+
+    }
 }
+
