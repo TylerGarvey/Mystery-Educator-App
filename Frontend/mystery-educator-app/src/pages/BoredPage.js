@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
  
 const BoredPage =() => {
  
-    const [ Loading, setLoading ] = useState(true);
+    const [ loading, setLoading ] = useState(true);
     const [ pageContent, setPageContent ] = useState(null);
  
     useEffect(() => {
@@ -11,46 +11,49 @@ const BoredPage =() => {
         .then(response => response.json())
             .then(json => setPageContent(json));
         
+        if(pageContent) {
+            setLoading(false);
+            }
         })
-    });
+    
  
-    console.log(data);
  
    
     return(
-        <div class="boredContainer">
-            <div class="boredBodyContainer">
-                <p class="aboutBored">
-                The Bored API
-            Let's find you something to do
-                </p>
-            </div>
-            <div class="boredButtonContainer">
-                <div class="boredButton">
-                    <button type="text" class="boredButton">
-                        Click me when you're bored
-                    </button>
-                </div>
-            </div>
-            {/* A section for what is returned from the api
-             that only shows and changes when the API button is clicked */}
-            (Loading ? <h2>Loading...</h2> :
+        (loading ? <h2>Loading...</h2> :
                 (
-                    <div class="boredApiContainer">
+                    <div className="boredApiContainer">
                         <div>
                             <div className='title'>
-                                {data.title}
-                            </div>
-                            <div>
-                                {data.body}
+                                {pageContent.title}
+                                {pageContent.body}
                             </div>
                         </div>
                     </div>
                 )
             )
-        </div>
+        
     )
+
+        // <div className="boredContainer">
+        //     <div className="boredBodyContainer">
+        //         <p className="aboutBored">
+        //         The Bored API
+        //     Let's find you something to do
+        //         </p>
+        //     </div>
+        //     <div className="boredButtonContainer">
+        //         <div className="boredButton">
+        //             <button type="text" class="boredButton">
+        //                 Click me when you're bored
+        //             </button>
+        //         </div>
+        //     </div>
+            
+            
+    
    
 }
+    
  
 export default BoredPage;
