@@ -6,6 +6,7 @@ import './App.css';
 import './style.css';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -20,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
