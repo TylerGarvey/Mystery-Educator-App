@@ -1,7 +1,12 @@
 package MysteryEducatorApp;
-import javax.persistence.Component;
+
+import MysteryEducatorApp.Models.Dinosaur;
+import MysteryEducatorApp.Repo.DinosaurRepository;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
 @Component
-public class Populator implements CommandLineRunner{
+public class Populator implements CommandLineRunner {
 
     private DinosaurRepository DinoRepo;
 
@@ -10,40 +15,36 @@ public class Populator implements CommandLineRunner{
     }
 
     @Override
-    public void run(string... args) throws Exception {
+    public void run(String... args) throws Exception {
 
-        Dinosaur Dinosaur1 = new Dinosaur();
-        DinoRepo.save(Dinosaur1)
+        Dinosaur Dinosaur1 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur1);
 
+        Dinosaur Dinosaur2 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur2);
 
-        Dinosaur Dinosaur2 = new Dinosaur();
-        dinoRepo.save(Dinosaur2)
+        Dinosaur Dinosaur3 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur3);
 
-        Dinosaur Dinosaur3 = new Dinosaur();
-        dinoRepo.save(Dinosaur3)
+        Dinosaur Dinosaur4 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur4);
 
-        Dinosaur Dinosaur4 = new Dinosaur();
-        dinoRepo.save
+        Dinosaur Dinosaur5 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur5);
 
-        Dinosaur Dinosaur5 = new Dinosaur();
-        dinoRepo.save
+        Dinosaur Dinosaur6 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur6);
 
-        Dinosaur Dinosaur6= new Dinosaur();
-        dinoRepo.save
+        Dinosaur Dinosaur7 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur7);
 
-        Dinosaur Dinosaur7 = new Dinosaur();
-        dinoRepo.save
+        Dinosaur Dinosaur8 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur8);
 
+        Dinosaur Dinosaur9 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur9);
 
-        Dinosaur Dinosaur8 = new Dinosaur();
-        dinoRepo.save
-
-        Dinosaur Dinosaur9 = new Dinosaur();
-        dinoRepo.save
-
-        Dinosaur Dinosaur10 = new Dinosaur();
-        dinoRepo.save
-
-
-
+        Dinosaur Dinosaur10 = new Dinosaur("x", "y");
+        DinoRepo.save(Dinosaur10);
+    }
 }
