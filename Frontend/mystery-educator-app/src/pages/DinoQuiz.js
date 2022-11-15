@@ -1,20 +1,22 @@
 
-const DinoQuiz = () => (
-    <div>
-        <h1>Dino Quiz!</h1>
-        <section>
-            <h3>Name that dinosaur!</h3>
-            <img></img>
-            <button>A.</button>
-            <button>B.</button>
-            <button>C.</button>
-            <button>D.</button>
-            <p>Description</p>
+const DinoQuiz = () => {
 
-            <h2>Display Name</h2>
-        </section>
-    </div>
-    
-)
+    return (
+        <div>
+            <h1>Dino Quiz!</h1>
+            <section>
+                <h3>Name that dinosaur!</h3>
+                <img></img>
+                <button>A.</button>
+                <button>B.</button>
+                <button>C.</button>
+                <button>D.</button>
+                <p>Description</p>
+
+                <h2>Display Name</h2>
+            </section>
+        </div>
+    )
+}
 
 export default DinoQuiz
