@@ -21,13 +21,13 @@ const BoredPage =() => {
  
    
     return(
-        (loading ? <h2>Loading...</h2> :
+        (loading ? <h3>Loading...</h3> :
                 (
                     <div className="boredApiContainer">
                         <div>
                             <div className='title'>
-                                {pageContent.title}
-                                {pageContent.body}
+                                <h3>{pageContent.title}</h3>
+                                <h4>{pageContent.body}</h4>
                             </div>
                         </div>
                     </div>

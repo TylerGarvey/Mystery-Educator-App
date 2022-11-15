@@ -7,6 +7,7 @@ const PageSwitch = () => {
     return (
         <Switch>
             <Route exact path={'/dinoQuiz'} component={DinoQuiz} />
+            <Route exact path={'/BoredPage'} component={BoredPage} />
         </Switch>
     )
 }
