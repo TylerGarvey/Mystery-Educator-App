@@ -10,6 +10,4 @@ public class DinosaurController {
     public DinosaurController(DinosaurRepository dinoRepo) {
         DinoRepo = dinoRepo;
     }
-
-    
 }
