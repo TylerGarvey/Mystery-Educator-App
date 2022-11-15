@@ -69,13 +69,13 @@ export default function About() {
     <section id="Tyler">
         <h2>Tyler Garvey</h2>
         <img class="photo" src="" alt="photo" />
-         // <p class> uncomment the p element and write about your your bios  -->
-        </p>
+         <p class>I'm a budding software developer who enjoys outdoor adventures with my dogs!</p>
+
         <a id="github" href="">
-        <img  id="github" src="" alt="github" />
+        <img  id="github" src="https://tylergarvey.github.io/" alt="github" />
         </a>
         <a id="linkedin" href="">
-        <img id="linkedin" src="" alt="linkedin" />
+        <img id="linkedin" src="https://www.linkedin.com/in/tygarvey/" alt="linkedin" />
         </a>
     </section>
 

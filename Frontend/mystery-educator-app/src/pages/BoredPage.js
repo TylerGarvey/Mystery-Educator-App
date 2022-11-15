@@ -15,6 +15,7 @@ const BoredPage =() => {
             setLoading(false);
             }
         })
+        
     
  
  
@@ -49,7 +50,6 @@ const BoredPage =() => {
         //             </button>
         //         </div>
         //     </div>
-            
             
     
    

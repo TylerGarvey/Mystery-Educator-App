@@ -1,5 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import DinoQuiz from "../../pages/DinoQuiz";
+import BoredPage from "../../pages/BoredPage";
 
 
 const PageSwitch = () => {
