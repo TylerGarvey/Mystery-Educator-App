@@ -56,12 +56,13 @@ export default function About() {
     <section id="Corey">
         <h2>Corey Dickerson</h2>
         <img class="photo" src="" alt="photo" />
-         // <p class> uncomment the p element and write about your your bios  
-        </p>
-        <a id="github" href="">
+         <p class> Naturally I'm a creative explorer. I have a strong passion for writing and recording music and have done so since the age of 13.  
+         I love spending time with my partner Alex and our two dogs.
+         </p>
+        <a id="github" href="https://github.com/CoreyMichael92">
         <img  id="github" src="" alt="github" />
         </a>
-        <a id="linkedin" href="">
+        <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
         <img id="linkedin" src="" alt="linkedin" />
         </a>
     </section>

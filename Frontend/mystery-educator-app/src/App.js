@@ -1,9 +1,9 @@
 
 import Header from './components/header/Header';
-import PageSwitch from '.'
+import PageSwitch from './components/app-router/index.js';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import './style.css';
+
 
 
 
@@ -13,6 +13,7 @@ function App() {
       
       <BrowserRouter>
       <div className="page">
+        
         <Header/>
         <PageSwitch/>
         </div>
