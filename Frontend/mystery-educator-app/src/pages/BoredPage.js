@@ -26,17 +26,17 @@ const BoredPage =() => {
        
                  
                     <div className="boredApiContainer">
-                        <div>
                             <div className='title'>
-                                <h1>The Bored API: Let's find you something to do</h1>
+                                <h1>The Bored API: Try this out!</h1>
                                 <ul>
                                     {activities.map((activity) => {
                                         return<li key={activity.key}>{activity.activity}</li>
                                     })}
                                 </ul>
                             </div>
-                            <button disabled={loading} onClick={loadActivity} type="text" class="boredButton">Click me if you're bored!</button>
-                        </div>
+                             <div className='boredButtonContainer'>       
+                                <button disabled={loading} onClick={loadActivity} type="text" class="boredButton">Sounds boring, try something else</button>
+                            </div>         
                     </div>
                   
                 

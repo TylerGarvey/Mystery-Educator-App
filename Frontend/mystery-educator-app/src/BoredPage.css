@@ -1,4 +1,6 @@
 /* may need adjusted */
+
+
 .boredContainer{
     display:flex;
     flex-direction: column;
@@ -17,9 +19,7 @@
     padding: 10px;
 }
  
-.aboutBored{
-    font-size: 24px;
-}
+
  
 .boredApiContainer{
     display: flex;
