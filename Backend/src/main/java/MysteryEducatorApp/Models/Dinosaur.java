@@ -20,6 +20,10 @@ public class Dinosaur {
         this.description = description;
     }
 
+    public Dinosaur() {
+
+    }
+
     public long getId() {
         return id;
     }
@@ -30,9 +34,6 @@ public class Dinosaur {
 
     public String getDescription() {
         return description;
-    }
-    public Dinosaur() {
-
     }
 }
 
