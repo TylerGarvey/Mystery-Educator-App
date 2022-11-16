@@ -1,97 +1,100 @@
 // import Ayanle from "";
 // import Zekariye from "";
 // import Jacob from "";
-// import Corey from "";
+import Corey from '../assets/Corey 2019.jpg';
 // import Tyler from "";
 // import Michael from "";
+import './homePage.css'
 
 // ^ just place holders for later
 
-
-export default function About() {
-  return `
+const About = () => (
+  
 <div class="container"> 
-<h1 class="margin" id="title">ABOUT US</h1>
-<main class="biogrophies">
+    <h1 class="margin" id="title">ABOUT US</h1>
+    <main class="biogrophies">
     
-    <section id="Ayanle">
-        <h2>Ayanle Dahir</h2>
-        <img class="photo" src="" alt="photo" />
-        // <p class> uncomment the p element and write about your your bios 
-        </p>
-        <a id="github" href="">
+        <section id="Ayanle">
+            <h2>Ayanle Dahir</h2>
+            <img class="photo" src="" alt="photo" />
+            // <p class> uncomment the p element and write about your your bios 
+             </p>
+            <a id="github" href="">
             <img  id="github" src="" alt="github" />
-        </a>
-        <a id="linkedin" href="">
-            <img id="linkedin" src="" alt="linkedin" />
-        </a>
-    </section>
+                </a>
+            <a id="linkedin" href="">
+             <img id="linkedin" src="" alt="linkedin" />
+            </a>
+            </section>
         
-    <section id="Zekariye">
-        <h2>Zekariye Isse</h2>
-        <img class="photo" src="" alt="photo" />
-         // <p class> uncomment the p element and write about your your bios 
-        </p>
-        <a id="github" href="">
-        <img  id="github" src="" alt="github" />
-        </a>
-        <a id="linkedin" href="">
-        <img id="linkedin" src="" alt="linkedin" />
-        </a>
-    </section>
+         <section id="Zekariye">
+             <h2>Zekariye Isse</h2>
+             <img class="photo" src="" alt="photo" />
+             // <p class> uncomment the p element and write about your your bios 
+            </p>
+            <a id="github" href="">
+            <img  id="github" src="" alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src="" alt="linkedin" />
+            </a>
+        </section>
 
-    <section id="Jacob">
-        <h2>Jacob Davis</h2>
-        <img class="photo" src="" alt="photo" />
-        // <p class> uncomment the p element and write about your your bios  -->
-        </p>
-        <a id="github" href="">
-        <img  id="github" src="" alt="github" />
-        </a>
-        <a id="linkedin" href="">
-        <img id="linkedin" src="" alt="linkedin" />
-        </a>
-    </section>
+        <section id="Jacob">
+            <h2>Jacob Davis</h2>
+            <img class="photo" src="" alt="photo" />
+            // <p class> uncomment the p element and write about your your bios  -->
+            </p>
+            <a id="github" href="">
+            <img  id="github" src="" alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src="" alt="linkedin" />
+            </a>
+        </section>
 
-    <section id="Corey">
-        <h2>Corey Dickerson</h2>
-        <img class="photo" src="" alt="photo" />
-         // <p class> uncomment the p element and write about your your bios  
-        </p>
-        <a id="github" href="">
-        <img  id="github" src="" alt="github" />
-        </a>
-        <a id="linkedin" href="">
-        <img id="linkedin" src="" alt="linkedin" />
-        </a>
-    </section>
+        <section id="Corey">
+            <h2>Corey Dickerson</h2>
+            <img className="photo" src={Corey} alt="photo" />
+            <p class> Since I was a kid I've been a creative explorer. Always spending most of my day exploring the woods, drawing, listening to music or taking things apart to see how they worked. I have a strong passion for writing and recording music and have done so since the age of 13. 
+            I like to spend my free time traveling with my partner Alex, and hiking with our two dogs Beck & Charlie.
+            </p>
+             <a id="github" href="https://github.com/CoreyMichael92">
+            <img  id="github" src="" alt="github" />
+             </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
+            <img id="linkedin" src="" alt="linkedin" />
+             </a>
+        </section>
 
-    <section id="Tyler">
-        <h2>Tyler Garvey</h2>
-        <img class="photo" src="" alt="photo" />
-         <p class>I'm a budding software developer who enjoys outdoor adventures with my dogs!</p>
+        <section id="Tyler">
+            <h2>Tyler Garvey</h2>
+            <img class="photo" src="" alt="photo" />
+             // <p class> uncomment the p element and write about your your bios  -->
+             </p>
+            <a id="github" href="">
+            <img  id="github" src="" alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src="" alt="linkedin" />
+             </a>
+        </section>
 
-        <a id="github" href="">
-        <img  id="github" src="https://tylergarvey.github.io/" alt="github" />
-        </a>
-        <a id="linkedin" href="">
-        <img id="linkedin" src="https://www.linkedin.com/in/tygarvey/" alt="linkedin" />
-        </a>
-    </section>
+        <section id="Michael">
+            <h2>Michael Diodore</h2>
+            <img class="photo" src="" alt="photo" />
+            // <p class> uncomment the p element and write about your your bios  
+            </p>
+            <a id="github" href="">
+            <img  id="github" src="" alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src="" alt="linkedin" />
+             </a>
+        </section>
+    </main>
+</div>
+)
 
-    <section id="Michael">
-        <h2>Michael Diodore</h2>
-        <img class="photo" src="" alt="photo" />
-        // <p class> uncomment the p element and write about your your bios  
-        </p>
-        <a id="github" href="">
-        <img  id="github" src="" alt="github" />
-        </a>
-        <a id="linkedin" href="">
-        <img id="linkedin" src="" alt="linkedin" />
-        </a>
-    </section>
 
-    </section>        
-</div>`;
-}
+export default About
