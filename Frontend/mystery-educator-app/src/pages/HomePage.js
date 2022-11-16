@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const HomePage = () => (
     <div className="homePage">
+        <h2>Let's learn something new today!</h2>
         <div className="images">
             <img src= {dino} id="dino1" alt="Dinosaur"/>
             <img src= {rocket} id="rocket1" alt="Rocketship"/>

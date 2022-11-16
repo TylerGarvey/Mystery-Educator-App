@@ -1,35 +1,26 @@
+/* Home Page */
 .page {
-
-    background-color: rgb(242, 195, 135);
-    height: 1000px;
-    margin: 2rem auto;
     
+    background-color:#F3EFE0;
+    height: auto;
+    margin: 2rem auto;
     max-width: 1000px;
     padding: 20px;
-    border: 5px solid black;
+    border: 5px solid #2F4550;
     border-radius: 20px;
 }
 
 body {
-    background-color: rgb(215, 202, 62);
+
+    background-color:#CBA135;
 }
 
-
-h1 {
-    font-style: italic;
-    font-weight: 250;
-    margin-bottom: 18px;
-    align-items: center;
-    
-}
 
 .apiBtn {
     display: flex;
     margin: 0rem auto;
     padding: 5px;
-    width: 100%;
-    
-    
+    width: 960px;
     
 }
 
@@ -43,6 +34,12 @@ h1 {
     height: 50px;
     padding: 0px;
     text-decoration: none;
+    color: #2F4550;
+}
+
+.apiBtn a:hover {
+    color: #CBA135;
+    transition: 3ms;
 }
 
 .dinoApi {
@@ -69,26 +66,113 @@ h1 {
 
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin: 27px;
+    width: 960px;
     
 }
 
 #dino1 {
-    width: 300px;
+    width: 245px;
+    height: 235px;
 }
 
 #rocket1 {
-    width: 300px;
+    width:  245px;
+    height: 235px;
     
 }
 
 #TSNT {
-    height: auto;
-    width: 300px;
+    width:  245px;
+    height: 235px;
     
 }
+
+/* About us */
+
+.container {
+    color: #2F4550;
+}
+
+
+.margin {
+
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-weight: 250;
+    margin-bottom: 23px;
+    align-items: center;
+}
+
+
+.photo {
+    width: 375px;
+}
+
+/* Contact */
+
+.suggestions {
+    
+    text-align: center;
+    font-style: italic;
+    font-weight: 250;
+    margin-bottom: 23px;
+    align-items: center;
+}
+
+.boxContain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    
+    
+}
+
+
+.Contactbox1 {
+    display: flex;
+    height: 25px;
+    margin: 2px;
+}
+
+.Contactbox2 {
+    display: flex;
+    height: 25px;
+    margin: 2px;
+}
+
+.Contactbox3 {
+    display: flex;
+    height: 25px;
+    margin: 2px;
+}
+
+.Contactbox4 {
+    display: flex;
+    margin: 2px;
+    height: 50px;
+}
+
+.Contactbox5 {
+    display: flex;
+    margin: 2px; 
+}
+
+/* dinoQuiz */
+
+h1 {
+    color: #2F4550;
+}
+
+.quiz {
+    color: #2F4550;
+}
+
+
 
 
 
