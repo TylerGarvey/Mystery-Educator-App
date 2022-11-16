@@ -4,37 +4,41 @@ import React, { useEffect, useState } from 'react';
 const BoredPage =() => {
  
     const [ loading, setLoading ] = useState(true);
-    const [ pageContent, setPageContent ] = useState(null);
+    const [ activity, setActivity ] = useState([]);
  
-    useEffect(() => {
+   function loadActivity() {
+        setLoading(true);
         fetch(`http://www.boredapi.com/api/activity/`)
-        .then(response => response.json())
-            .then(json => setPageContent(json));
+            .then(response => response.data())
+            .then(json => {
+                setActivity([...activity, data.activity]);
+                setLoading(false);
+            });
+    }
+       
+    useEffect(() => {loadActivity();}, []);
         
-        if(pageContent) {
-            setLoading(false);
-            }
-        })
-        
+    if(loading)  {
+        return <p>Loading...how boring</p>
+    }
     
- 
- 
-   
     return(
-        (loading ? <h3>Loading...</h3> :
-                (
+       
+                ( 
                     <div className="boredApiContainer">
                         <div>
                             <div className='title'>
-                                <h3>{pageContent.title}</h3>
-                                <h4>{pageContent.body}</h4>
+                                <h1>The Bored API: Let's find you something to do</h1>
+                                <h2>{activity}</h2>
                             </div>
+                            <button onClick={loadActivity} type="text" class="boredButton">Click me if you're bored!</button>
                         </div>
                     </div>
+                  
                 )
             )
         
-    )
+    
 
         // <div className="boredContainer">
         //     <div className="boredBodyContainer">
@@ -45,9 +49,7 @@ const BoredPage =() => {
         //     </div>
         //     <div className="boredButtonContainer">
         //         <div className="boredButton">
-        //             <button type="text" class="boredButton">
-        //                 Click me when you're bored
-        //             </button>
+        //             
         //         </div>
         //     </div>
             
