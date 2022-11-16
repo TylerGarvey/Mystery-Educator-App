@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
- 
- 
+
 const BoredPage =() => {
  
     const [ loading, setLoading ] = useState(true);
@@ -21,14 +20,27 @@ const BoredPage =() => {
     if(activities.length === 0)  {
         return <p>Loading...how boring...</p>
     }
-    
+
+//     let audio = new Audio("fartSound.mp3")
+
+//     const start = () => {
+//     audio.play()
+//   }
+
+
+//     document.getElementById("boredButton").onclick = (ev) => {
+//        loadActivity();
+//        start()
+//     }
+
+
     return(
-       
                  
                     <div className="boredApiContainer">
                             <div className='title'>
-                                <h1>The Bored API: Try this out!</h1>
-                                <ul>
+                                <h1>The Bored API</h1>
+                               <img src='checkItOut'></img>
+                                <ul className='activitesList'>
                                     {activities.map((activity) => {
                                         return<li key={activity.key}>{activity.activity}</li>
                                     })}
