@@ -71,10 +71,10 @@ const About = () => (
             <h2>Tyler Garvey</h2>
             <img className='photo' src="" alt='photo' />
               <p>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
-            <a id="github" href="">
+            <a id="github" href="https://github.com/TylerGarvey">
             <img  id="github" src="" alt="github" />
             </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href="https://www.linkedin.com/in/tygarvey/">
             <img id="linkedin" src="" alt="linkedin" />
              </a>
         </section>
