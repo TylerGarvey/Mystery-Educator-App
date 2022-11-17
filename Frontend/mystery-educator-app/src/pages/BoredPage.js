@@ -22,7 +22,7 @@ const BoredPage =() => {
         return <p>Loading...how boring...</p>
     }
 
-    let playAudio = () => {g
+    let playAudio = () => {
         new Audio(audio).play();
     }
 
