@@ -1,8 +1,10 @@
+import './homePage.css'
+
 
 const DinoQuiz = () => (
     <div>
         <h1>Dino Quiz!</h1>
-        <section>
+        <section className='quiz'>
             <h3>Name that dinosaur!</h3>
             <img></img>
             <button>A.</button>
