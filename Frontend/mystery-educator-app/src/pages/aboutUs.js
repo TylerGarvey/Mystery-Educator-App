@@ -43,7 +43,7 @@ const About = () => (
 
         <section id="Jacob">
             <h2>Jacob Davis</h2>
-            <img class="photo" src="" alt="photo" />
+            <img class="photo" src="" alt="photo"/>
              <p class> uncomment the p element and write about your your bios
             </p>
             <a id="github" href="">
@@ -89,7 +89,7 @@ const About = () => (
             <img  id="github" src={gitHub}alt="github" />
             </a>
             <a id="linkedin" href="">
-            <img id="linkedin" src={linkedIn} alt="linkedin" />
+            <img id="linkedin" src={linkedIn} alt="linkedin"/>
              </a>
         </section>
     </main>

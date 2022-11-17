@@ -5,7 +5,7 @@ import './header.css'
 
 
 
-let playMouse = ()=> {
+let playMouse = () => {
     new Audio (mouse).play();
 }
 
