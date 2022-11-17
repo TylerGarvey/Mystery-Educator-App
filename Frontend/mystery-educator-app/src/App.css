@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.boredButtonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.boredButton{
+  display: flex;
+  color: #F3EFE0;
+  background-color:#709176;
+  align-items: center;
+  border: 1px solid #F3EFE0;
+  border-radius: 6px;
+  justify-content: center;
+  list-style-type: none;
+  margin: 10px;
+  min-width: 88px;
+  height: 50px;
+  padding: 10px;
+}
+
+.boredButton:hover{
+  cursor: pointer;
+}
+
+
+
+.boredApiContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.activitiesList{
+  list-style: none;
+}
+
+.boredActivity {
+  list-style-type: none;
+  font-size: larger;
+}
+
+.checkItOutImg {
+  height: 200px;
+  width: 200px;
+}
