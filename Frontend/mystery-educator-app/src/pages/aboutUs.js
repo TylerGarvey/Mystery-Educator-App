@@ -5,7 +5,8 @@ import Corey from '../assets/Corey 2019.jpg';
 // import Tyler from "";
 // import Michael from "";
 import './homePage.css'
-
+import gitHub from '../assets/gitHub.png'
+import linkedIn from '../assets/linkedIn.png'
 // ^ just place holders for later
 
 const About = () => (
@@ -17,39 +18,39 @@ const About = () => (
         <section id="Ayanle">
             <h2>Ayanle Dahir</h2>
             <img class="photo" src="" alt="photo" />
-            // <p class> uncomment the p element and write about your your bios 
+             <p class> uncomment the p element and write about your your bios 
              </p>
             <a id="github" href="">
-            <img  id="github" src="" alt="github" />
+            <img  id="github" src={gitHub} alt="github" />
                 </a>
             <a id="linkedin" href="">
-             <img id="linkedin" src="" alt="linkedin" />
+             <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
             </section>
         
          <section id="Zekariye">
              <h2>Zekariye Isse</h2>
              <img class="photo" src="" alt="photo" />
-             // <p class> uncomment the p element and write about your your bios 
+              <p class> uncomment the p element and write about your your bios 
             </p>
             <a id="github" href="">
-            <img  id="github" src="" alt="github" />
+            <img  id="github" src={gitHub} alt="github" />
             </a>
             <a id="linkedin" href="">
-            <img id="linkedin" src="" alt="linkedin" />
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
         </section>
 
         <section id="Jacob">
             <h2>Jacob Davis</h2>
             <img class="photo" src="" alt="photo" />
-            // <p class> uncomment the p element and write about your your bios  -->
+             <p class> uncomment the p element and write about your your bios
             </p>
             <a id="github" href="">
-            <img  id="github" src="" alt="github" />
+            <img  id="github" src={gitHub} alt="github" />
             </a>
             <a id="linkedin" href="">
-            <img id="linkedin" src="" alt="linkedin" />
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
         </section>
 
@@ -60,36 +61,35 @@ const About = () => (
             I like to spend my free time traveling with my partner Alex, and hiking with our two dogs Beck & Charlie.
             </p>
              <a id="github" href="https://github.com/CoreyMichael92">
-            <img  id="github" src="" alt="github" />
+            <img  id="github" src={gitHub} alt="github" />
              </a>
             <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
-            <img id="linkedin" src="" alt="linkedin" />
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
 
         <section id="Tyler">
             <h2>Tyler Garvey</h2>
-            <img class="photo" src="" alt="photo" />
-             // <p class> uncomment the p element and write about your your bios  -->
-             </p>
-            <a id="github" href="">
-            <img  id="github" src="" alt="github" />
+            <img className='photo' src="" alt='photo' />
+              <p>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
+            <a id="github" href="https://github.com/TylerGarvey">
+            <img  id="github" src={gitHub} alt="github" />
             </a>
-            <a id="linkedin" href="">
-            <img id="linkedin" src="" alt="linkedin" />
+            <a id="linkedin" href="https://www.linkedin.com/in/tygarvey/">
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
 
         <section id="Michael">
             <h2>Michael Diodore</h2>
             <img class="photo" src="" alt="photo" />
-            // <p class> uncomment the p element and write about your your bios  
+             <p class> uncomment the p element and write about your your bios  
             </p>
             <a id="github" href="">
-            <img  id="github" src="" alt="github" />
+            <img  id="github" src={gitHub}alt="github" />
             </a>
             <a id="linkedin" href="">
-            <img id="linkedin" src="" alt="linkedin" />
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
     </main>
