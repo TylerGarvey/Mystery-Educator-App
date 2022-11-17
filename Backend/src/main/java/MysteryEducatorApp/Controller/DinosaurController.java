@@ -9,10 +9,13 @@ public class DinosaurController {
     private DinosaurRepository DinoRepo;
 
     public DinosaurController(DinosaurRepository dinoRepo) {
+
         DinoRepo = dinoRepo;
     }
     @GetMapping("/Dinosaurs")
+
     public Iterable<Dinosaur> getDinosaurs(){
+
         return DinoRepo.findAll();
     }
     @GetMapping("/Dinosaurs/{id}")
