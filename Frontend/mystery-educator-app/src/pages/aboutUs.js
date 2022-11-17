@@ -17,7 +17,7 @@ const About = () => (
         <section id="Ayanle">
             <h2>Ayanle Dahir</h2>
             <img class="photo" src="" alt="photo" />
-            // <p class> uncomment the p element and write about your your bios 
+             <p class> uncomment the p element and write about your your bios 
              </p>
             <a id="github" href="">
             <img  id="github" src="" alt="github" />
@@ -30,7 +30,7 @@ const About = () => (
          <section id="Zekariye">
              <h2>Zekariye Isse</h2>
              <img class="photo" src="" alt="photo" />
-             // <p class> uncomment the p element and write about your your bios 
+              <p class> uncomment the p element and write about your your bios 
             </p>
             <a id="github" href="">
             <img  id="github" src="" alt="github" />
@@ -43,7 +43,7 @@ const About = () => (
         <section id="Jacob">
             <h2>Jacob Davis</h2>
             <img class="photo" src="" alt="photo" />
-            // <p class> uncomment the p element and write about your your bios  -->
+             <p class> uncomment the p element and write about your your bios
             </p>
             <a id="github" href="">
             <img  id="github" src="" alt="github" />
@@ -69,9 +69,8 @@ const About = () => (
 
         <section id="Tyler">
             <h2>Tyler Garvey</h2>
-            <img class="photo" src="" alt="photo" />
-             // <p class> uncomment the p element and write about your your bios  -->
-             </p>
+            <img className='photo' src="" alt='photo' />
+              <p>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
             <a id="github" href="">
             <img  id="github" src="" alt="github" />
             </a>
@@ -83,7 +82,7 @@ const About = () => (
         <section id="Michael">
             <h2>Michael Diodore</h2>
             <img class="photo" src="" alt="photo" />
-            // <p class> uncomment the p element and write about your your bios  
+             <p class> uncomment the p element and write about your your bios  
             </p>
             <a id="github" href="">
             <img  id="github" src="" alt="github" />
