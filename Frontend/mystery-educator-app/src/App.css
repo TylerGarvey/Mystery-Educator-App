@@ -57,6 +57,12 @@
   padding: 10px;
 }
 
+.boredButton:hover{
+  cursor: pointer;
+}
+
+
+
 .boredApiContainer{
   display: flex;
   flex-direction: column;
