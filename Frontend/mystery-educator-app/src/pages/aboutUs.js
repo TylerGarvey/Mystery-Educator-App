@@ -5,10 +5,8 @@ import Corey from '../assets/Corey 2019.jpg';
 // import Tyler from "";
 import Michael from "../assets/michael.jpg";
 import './homePage.css'
-import linkedinpic from'../assets/linkedin.png';
-import githubpic from'../assets/github.png';
-
-
+import gitHub from '../assets/gitHub.png'
+import linkedIn from '../assets/linkedIn.png'
 // ^ just place holders for later
 
 const About = () => (
@@ -25,8 +23,15 @@ const About = () => (
             <a id="github" href="">
             <img  id="githubpic" src={githubpic} alt="github" />
                 </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href=""></a>
              <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
+             <p class> uncomment the p element and write about your your bios 
+             </p>
+            <a id="github" href="">
+            <img  id="github" src={gitHub} alt="github" />
+                </a>
+            <a id="linkedin" href="">
+             <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
             </section>
         
@@ -38,8 +43,15 @@ const About = () => (
             <a id="github" href="">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href=""></a>
             <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
+              <p class> uncomment the p element and write about your your bios 
+            </p>
+            <a id="github" href="">
+            <img  id="github" src={gitHub} alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
         </section>
 
@@ -51,8 +63,15 @@ const About = () => (
             <a id="github" href="">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href=""></a>
             <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
+             <p class> uncomment the p element and write about your your bios
+            </p>
+            <a id="github" href="">
+            <img  id="github" src={gitHub} alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
         </section>
 
@@ -67,6 +86,10 @@ const About = () => (
              </a>
             <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
             <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
+            <img  id="github" src={gitHub} alt="github" />
+             </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
 
@@ -78,8 +101,15 @@ const About = () => (
             <a id="github" href="">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href=""></a>
             <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
+            <img className='photo' src="" alt='photo' />
+              <p>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
+            <a id="github" href="https://github.com/TylerGarvey">
+            <img  id="github" src={gitHub} alt="github" />
+            </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/tygarvey/">
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
 
@@ -93,8 +123,16 @@ const About = () => (
             <a id="github" href="https://github.com/michaeldiodore">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
-            <a id="linkedin" href="https://www.linkedin.com/in/michael-diodore-a102b017b/">
+            <a id="linkedin" href="https://www.linkedin.com/in/michael-diodore-a102b017b/"></a>
             <img id="linkedin" src={linkedinpic} alt="linkedin" />
+            <img class="photo" src="" alt="photo" />
+             <p class> uncomment the p element and write about your your bios  
+            </p>
+            <a id="github" href="">
+            <img  id="github" src={gitHub}alt="github" />
+            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
     </main>
