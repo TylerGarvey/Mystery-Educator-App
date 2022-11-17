@@ -31,7 +31,7 @@ export default function About() {
         <h2>Zekariye Isse</h2>
         <img class="photo" src="" alt="photo" />
          // <p class> uncomment the p element and write about your your bios 
-        </p>
+        </p>pd
         <a id="github" href="">
         <img  id="github" src="" alt="github" />
         </a>

@@ -11,20 +11,10 @@ public class Populator implements CommandLineRunner {
     private DinosaurRepository DinoRepo;
 
 
-<<<<<<< HEAD
     public Populator(DinosaurRepository DinoRepo,) {
         this.DinoRepo = DinoRepo;
 
 
-=======
-    public Populator(DinosaurRepository DinoRepo, String name, String description) {
-        this.DinoRepo = DinoRepo;
-
-
-
-
-
->>>>>>> main
     }
 
     @Override
