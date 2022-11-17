@@ -11,7 +11,7 @@ public class Populator implements CommandLineRunner {
     private DinosaurRepository DinoRepo;
 
 
-    public Populator(DinosaurRepository DinoRepo, String name, String description) {
+    public Populator(DinosaurRepository DinoRepo) {
         this.DinoRepo = DinoRepo;
 
 

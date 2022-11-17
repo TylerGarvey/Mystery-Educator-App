@@ -12,11 +12,11 @@ public class DinosaurController {
         DinoRepo = dinoRepo;
     }
     @GetMapping("/Dinosaurs")
-    public Iterable<Dinosaur> getDinosaurs(){
+    public Iterable<Dinosaur> getDinosaurs() {
         return DinoRepo.findAll();
     }
     @GetMapping("/Dinosaurs/{id}")
-    public Dinosaur getSingleDinosaur(@PathVariable long id){
+    public Dinosaur getSingleDinosaur(@PathVariable long id) {
         return DinoRepo.findById(id).get();
     }
     @PostMapping("/Dinosaurs")
