@@ -3,7 +3,7 @@
 // import Jacob from "";
 import Corey from '../assets/Corey 2019.jpg';
 // import Tyler from "";
-// import Michael from "";
+import Michael from "../assets/michael.jpg";
 import './homePage.css'
 import gitHub from '../assets/gitHub.png'
 import linkedIn from '../assets/linkedIn.png'
@@ -18,6 +18,13 @@ const About = () => (
         <section id="Ayanle">
             <h2>Ayanle Dahir</h2>
             <img class="photo" src="" alt="photo" />
+             {/* <p class> uncomment the p element and write about your your bios 
+             </p> */}
+            <a id="github" href="">
+            <img  id="githubpic" src={githubpic} alt="github" />
+                </a>
+            <a id="linkedin" href=""></a>
+             <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
              <p class> uncomment the p element and write about your your bios 
              </p>
             <a id="github" href="">
@@ -31,6 +38,13 @@ const About = () => (
          <section id="Zekariye">
              <h2>Zekariye Isse</h2>
              <img class="photo" src="" alt="photo" />
+             {/* <p className='bios'> uncomment the p element and write about your your bios 
+            </p> */}
+            <a id="github" href="">
+            <img  id="githubpic" src={githubpic} alt="github" />
+            </a>
+            <a id="linkedin" href=""></a>
+            <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
               <p class> uncomment the p element and write about your your bios 
             </p>
             <a id="github" href="">
@@ -44,6 +58,13 @@ const About = () => (
         <section id="Jacob">
             <h2>Jacob Davis</h2>
             <img class="photo" src="" alt="photo" />
+             {/* <p className='bios'> uncomment the p element and write about your your bios 
+            </p> */}
+            <a id="github" href="">
+            <img  id="githubpic" src={githubpic} alt="github" />
+            </a>
+            <a id="linkedin" href=""></a>
+            <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
              <p class> uncomment the p element and write about your your bios
             </p>
             <a id="github" href="">
@@ -57,10 +78,14 @@ const About = () => (
         <section id="Corey">
             <h2>Corey Dickerson</h2>
             <img className="photo" src={Corey} alt="photo" />
-            <p class> Since I was a kid I've been a creative explorer. Always spending most of my day exploring the woods, drawing, listening to music or taking things apart to see how they worked. I have a strong passion for writing and recording music and have done so since the age of 13. 
+            <p className='bios'> Since I was a kid I've been a creative explorer. Always spending most of my day exploring the woods, drawing, listening to music or taking things apart to see how they worked. I have a strong passion for writing and recording music and have done so since the age of 13. 
             I like to spend my free time traveling with my partner Alex, and hiking with our two dogs Beck & Charlie.
             </p>
              <a id="github" href="https://github.com/CoreyMichael92">
+            <img  id="githubpic" src={githubpic} alt="github" />
+             </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
+            <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
             <img  id="github" src={gitHub} alt="github" />
              </a>
             <a id="linkedin" href="https://www.linkedin.com/in/corey-dickerson-614cb/">
@@ -70,6 +95,14 @@ const About = () => (
 
         <section id="Tyler">
             <h2>Tyler Garvey</h2>
+            <img class="photo" src="" alt="photo" />
+              {/* <p className='bios'> uncomment the p element and write about your your bios  
+             </p> */}
+            <a id="github" href="">
+            <img  id="githubpic" src={githubpic} alt="github" />
+            </a>
+            <a id="linkedin" href=""></a>
+            <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
             <img className='photo' src="" alt='photo' />
               <p>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
             <a id="github" href="https://github.com/TylerGarvey">
@@ -82,6 +115,16 @@ const About = () => (
 
         <section id="Michael">
             <h2>Michael Diodore</h2>
+            <img className='photo' src={Michael} alt='photo' />
+             <p className='bios'> Hi!, My name is Michael Diodore, I am a creative and life long learner, I enjoy spending time with my friends and family and doing some adventuring. If you want to
+            in touch with me, or see some of my other projects please check out the links below. Thanks again!
+            other projects on.
+            </p>
+            <a id="github" href="https://github.com/michaeldiodore">
+            <img  id="githubpic" src={githubpic} alt="github" />
+            </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/michael-diodore-a102b017b/"></a>
+            <img id="linkedin" src={linkedinpic} alt="linkedin" />
             <img class="photo" src="" alt="photo" />
              <p class> uncomment the p element and write about your your bios  
             </p>
