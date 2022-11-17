@@ -1,31 +1,3 @@
 /* may need adjusted */
 
 
-.boredContainer{
-    display:flex;
-    flex-direction: column;
-}
- 
-.boredBodyContainer{
-    display: block;
-    /* flex maybe? */
-}
- 
-.boredButtonContainer{
-    display: flex;
-}
- 
-.boredButton{
-    padding: 10px;
-}
- 
-
- 
-.boredApiContainer{
-    display: flex;
-    flex-direction: column;
-}
-
-.activitiesList{
-    list-style: none;
-}

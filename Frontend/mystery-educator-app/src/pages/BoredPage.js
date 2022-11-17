@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import checkItOut from '../assets/checkItOut.png'
+import audio from '../assets/fartSound.mp3'
 const BoredPage =() => {
  
     const [ loading, setLoading ] = useState(true);
@@ -21,41 +22,27 @@ const BoredPage =() => {
         return <p>Loading...how boring...</p>
     }
 
-//     let audio = new Audio("fartSound.mp3")
-
-//     const start = () => {
-//     audio.play()
-//   }
-
-
-//     document.getElementById("boredButton").onclick = (ev) => {
-//        loadActivity();
-//        start()
-//     }
-
+    let playAudio = () => {
+        new Audio(audio).play();
+    }
 
     return(
-                 
-                    <div className="boredApiContainer">
-                            <div className='title'>
-                                <h1>The Bored API</h1>
-                               <img src='checkItOut'></img>
-                                <ul className='activitesList'>
-                                    {activities.map((activity) => {
-                                        return<li key={activity.key}>{activity.activity}</li>
-                                    })}
-                                </ul>
-                            </div>
-                             <div className='boredButtonContainer'>       
-                                <button disabled={loading} onClick={loadActivity} type="text" class="boredButton">Sounds boring, try something else</button>
-                            </div>         
-                    </div>
-                  
-                
-            )
-        
-    
+        <div className="boredApiContainer">
+            <div className='title'>
+                <h1>The Bored API</h1>
+                <h2>Tired of farting around? Press the button and Bored API will give you some crap to do!</h2>
+                <img src={checkItOut} className='checkItOutImg'></img>
+                <ul className='activitesList'>
+                    {activities.map((activity) => {
+                        return<li key={activity.key} className="boredActivity">{activity.activity}</li>
+                    })}
+                </ul>
+            </div>
+            <div className='boredButtonContainer'>       
+                <button disabled={loading} onClick={() => {loadActivity(); playAudio()}} type="text" className="boredButton">Sounds boring, try something else</button>
+            </div>         
+        </div>        
+    ) 
 }
     
- 
 export default BoredPage;
