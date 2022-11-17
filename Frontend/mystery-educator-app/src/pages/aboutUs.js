@@ -18,12 +18,12 @@ const About = () => (
         <section id="Ayanle">
             <h2>Ayanle Dahir</h2>
             <img class="photo" src="" alt="photo" />
-             <p class> uncomment the p element and write about your your bios 
+             <p class> I've always loved computers so that is why I wanted to become a software developer. I also love playing and watching sports in my free time.
              </p>
-            <a id="github" href="">
+            <a id="github" href="https://github.com/Ayanle6">
             <img  id="github" src={gitHub} alt="github" />
                 </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href="https://www.linkedin.com/in/ayanle-dahir-770b30250/">
              <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
             </section>
