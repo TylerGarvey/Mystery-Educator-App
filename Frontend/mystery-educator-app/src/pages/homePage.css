@@ -132,7 +132,7 @@ body {
     
 }
 
-
+/* You could use a single contactBox */
 .Contactbox1 {
     display: flex;
     height: 25px;
@@ -165,6 +165,10 @@ body {
 /* dinoQuiz */
 
 h1 {
+    color: #2F4550;
+}
+
+h2 {
     color: #2F4550;
 }
 

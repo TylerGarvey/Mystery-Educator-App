@@ -12,6 +12,6 @@ This application has both Frontend and Backend functions.
 
 5. If all goes well, you should be at server (http://localhost:3000)
 
-6. Look at your browser and you should see a log statement verifying the front end is up and runnung
+6. Look at your browser and you should see a log statement verifying the front end is up and running
 
 Test line "TBD test"
