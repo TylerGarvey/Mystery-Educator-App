@@ -2,7 +2,7 @@
 // import Zekariye from "";
 // import Jacob from "";
 import Corey from '../assets/Corey 2019.jpg';
-// import Tyler from "";
+import Tyler from '../assets/Tyler.jpg'
 import Michael from "../assets/michael.jpg";
 import './homePage.css'
 import githubpic from '../assets/github.png'
@@ -71,7 +71,7 @@ const About = () => (
 
         <section id="Tyler">
             <h2>Tyler Garvey</h2>
-            <img className='photo' src="" alt='photo'/>
+            <img className='tylerphoto' src={Tyler} alt='photo'/>
               <p className='bios'>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
             <a id="github" href="https://github.com/TylerGarvey">
             <img  id="githubpic" src={githubpic} alt="github" />
