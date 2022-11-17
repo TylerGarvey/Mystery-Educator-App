@@ -1,39 +1,60 @@
 import React from "react";
 import './homePage.css';
+import audio from '../assets/dinosaur.mp3' 
+import splash from '../assets/splash.mp3'
+import fart from '../assets/fartSound.mp3'
 import dino from '../assets/dino1.jpg';
-import rocket from '../assets/rocket1.jpg';
+import fish from '../assets/fish.jpg';
 import TSNT from '../assets/TSNT.jpg'
 import { NavLink } from "react-router-dom";
 
+let playAudio = () => {
+    new Audio(audio).play();
+    }
+
+let playSplash = () => {
+    new Audio(splash).play();
+    }
+
+let playFart = () => {
+     new Audio(fart).play();
+    }
 
 const HomePage = () => (
     <div className="homePage">
         <h2>Let's learn something new today!</h2>
         <div className="images">
             <img src= {dino} id="dino1" alt="Dinosaur"/>
-            <img src= {rocket} id="rocket1" alt="Rocketship"/>
+            <img src= {fish} id="fish" alt="fish"/>
             <img src= {TSNT} id="TSNT" alt= "try something new today"/>
 
         </div>
 
+        
+
         <ul className="apiBtn">
             <div className="dinoApi">
             
-             <NavLink to= '/dinoQuiz'> DinoQuiz </NavLink>
+             <NavLink to= '/dinoQuiz' onClick={playAudio}> DinoQuiz </NavLink>
             </div>
             
-            <div className="NASAApi">
-                 <NavLink to= '/spaceApi'> NASA API </NavLink>
+            <div className="FishAPI">
+                 <NavLink to= '/spaceApi' onClick={playSplash}> Fish Watch API</NavLink>
             </div>   
 
             <div className="boredApi">
-                 <NavLink to= '/boredApi'> Boredom API </NavLink>
+                 <NavLink to= '/boredApi' onClick={playFart}> Boredom API </NavLink>
             </div>
         </ul>
        
        
     </div>
+
+    
 )
+
+
+
     
     
  
