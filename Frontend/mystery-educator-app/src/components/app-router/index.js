@@ -5,6 +5,7 @@ import aboutUs from '../../pages/aboutUs';
 import Contact from '../../pages/Contact';
 import './index.css'
 import BoredPage from "../../pages/BoredPage";
+import Animal from "../../pages/Animal";
 
 
 const PageSwitch = () => {
@@ -15,6 +16,7 @@ const PageSwitch = () => {
       <Route exact path={'/contact'} component={Contact} />
       <Route exact path={'/dinoQuiz'} component={DinoQuiz} />
       <Route exact path={'/boredApi'} component={BoredPage} />
+      <Route exact path={'/animal'} component={Animal} />
     </Switch>
   )
 }

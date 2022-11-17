@@ -11,11 +11,16 @@ public class Populator implements CommandLineRunner {
     private DinosaurRepository DinoRepo;
 
 
-    public Populator(DinosaurRepository DinoRepo, String name, String description) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public Populator(DinosaurRepository DinoRepo,) {
+=======
+    public Populator(DinosaurRepository DinoRepo) {
+>>>>>>> a19982d0d8a597388f0419c1f272e9fb8cf3b5f3
+=======
+    public Populator(DinosaurRepository DinoRepo) {
+>>>>>>> a19982d0d8a597388f0419c1f272e9fb8cf3b5f3
         this.DinoRepo = DinoRepo;
-
-
-
 
 
     }

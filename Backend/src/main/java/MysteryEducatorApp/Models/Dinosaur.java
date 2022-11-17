@@ -1,5 +1,6 @@
 package MysteryEducatorApp.Models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -11,8 +12,9 @@ public class Dinosaur {
     @GeneratedValue
     private long id;
 
-    private String name;
 
+    private String name;
+    @Column(length = 1000)
     private String description;
 
     public Dinosaur(String name, String description) {
