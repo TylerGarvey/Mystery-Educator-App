@@ -22,7 +22,7 @@ const BoredPage =() => {
         return <p>Loading...how boring...</p>
     }
 
-    let playAudio = () => {g
+    let playAudio = () => {
         new Audio(audio).play();
     }
 
@@ -31,7 +31,7 @@ const BoredPage =() => {
             <div className='title'>
                 <h1>The Bored API</h1>
                 <h2>Tired of farting around? Press the button and Bored API will give you some crap to do!</h2>
-                <img src={checkItOut} className='checkItOutImg'></img>
+                <img src={checkItOut} className='checkItOutImg' alt='checkItOutImg'></img>
                 <ul className='activitesList'>
                     {activities.map((activity) => {
                         return<li key={activity.key} className="boredActivity">{activity.activity}</li>
