@@ -4,6 +4,7 @@
 import Corey from '../assets/Corey 2019.jpg';
 import Tyler from '../assets/Tyler.jpg'
 import Michael from "../assets/michael.jpg";
+import Jacob from "../assets/jacob.png"
 import './homePage.css'
 import githubpic from '../assets/github.png'
 import linkedinpic from '../assets/linkedin.png'
@@ -48,13 +49,15 @@ const About = () => (
 
         <section id="Jacob">
             <h2>Jacob Davis</h2>
-            <img className='photo' src="" alt="photo" />
-             {/* <p className='bios'> uncomment the p element and write about your your bios 
-            </p> */}
-            <a id="github" href="">
+            <img className='photo' src={Jacob} alt="photo" />
+             <p className='bios'>I grew up loving video games and computers 
+             and now enjoy coding on my free time. I also like to explore 
+             new places and go out to drink coffee with my wife. 
+             </p>
+            <a id="github" href="https://github.com/JDavis01">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
-            <a id="linkedin" href="">
+            <a id="linkedin" href="https://www.linkedin.com/in/jacob-davis-6bb4ab75/">
             <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
             </a>
             

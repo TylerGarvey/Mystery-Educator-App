@@ -16,8 +16,7 @@ const Header = () => (
             <NavLink to= '/' onClick={playMouse}>Home</NavLink>
             <NavLink to= '/aboutUs' onClick={playMouse}>About Us</NavLink>
             <NavLink to= '/contact' onClick={playMouse}>Contact</NavLink>
-
-
+            <NavLink to= '/dinoQuiz' onClick={playMouse}>Dinosaur Quiz</NavLink>
         </ul>
      </div>
 )
