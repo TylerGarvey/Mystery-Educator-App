@@ -39,7 +39,7 @@ const HomePage = () => (
             </div>
             
             <div className="animalAPI">
-                 <NavLink to= '/animalApi' onClick={playRoar}>  Animal API </NavLink>
+                 <NavLink to= '/animalApi' onClick={playRoar}> Animal API </NavLink>
             </div>   
 
             <div className="boredApi">

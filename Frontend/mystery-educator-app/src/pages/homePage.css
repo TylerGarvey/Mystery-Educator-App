@@ -144,14 +144,26 @@ body {
     width: 375px;
 }
 
-#github {
+.tylerphoto {
+    height: 300px;
+    border: #2F4550 solid;
+    border-radius: 20px;
+
+}
+
+
+#github img {
     width: 25px;
     margin: 2px;
 }
 
-#linkedin {
+#linkedin img {
     width: 30px;
     margin: 2px;
+}
+
+.biogrophies h2 {
+    padding: 10px;
 }
 
 /* Contact */
@@ -178,6 +190,8 @@ body {
     display: flex;
     height: 25px;
     margin: 2px;
+    border: 1px solid #709176;
+    border-radius: 6px;
 }
 
 .Contactbox4 {
@@ -186,7 +200,58 @@ body {
     height: 50px;
 }
 
+.Contactbox5 {
+    display: flex;
+    color: #F3EFE0;
+    background-color:#709176;
+    align-items: center;
+    border: 1px solid #CBA135;
+    border-radius: 6px;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    min-width: 88px;
+    height: 50px;
+    padding: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Contactbox5:hover {
+    color: #2F4550;
+    transition: 3ms;
+}
+
 /* dinoQuiz */
+
+.quiz {
+    display: flex;
+    align-content: space-around;
+    
+    
+}
+.quiz button {
+    display: flex;
+    color: #F3EFE0;
+    background-color:#709176;
+    align-items: center;
+    border: 1px solid #CBA135;
+    border-radius: 6px;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    min-width: 88px;
+    height: 50px;
+    padding: 2px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.quiz button:hover {
+    color: #2F4550;
+    transition: 3ms;
+}
 
 h1 {
     color: #2F4550;
@@ -199,6 +264,41 @@ h2 {
 .quiz {
     color: #2F4550;
 }
+
+/* Animal Api */
+
+.animalApi button {
+    display: flex;
+    color: #F3EFE0;
+    background-color:#709176;
+    align-items: center;
+    border: 1px solid #CBA135;
+    border-radius: 6px;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    min-width: 88px;
+    height: 50px;
+    padding: 2px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.animalApi button:hover {
+    color:#2F4550;
+    transition: 3ms;
+}
+
+.animalApi p {
+    color: #2F4550;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 23px;
+    align-items: center;
+}
+
 
 
 

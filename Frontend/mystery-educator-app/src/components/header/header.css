@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    flex-wrap: wrap;
     background-color:#CBA135;
     border: 4px solid #2F4550;
     border-radius: 500px;
@@ -42,6 +43,7 @@
 
 .navList a {
     display: flex;
+    flex-wrap: wrap;
     color: #F3EFE0;
     background-color:#709176;
     align-items: center;
