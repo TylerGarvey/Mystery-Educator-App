@@ -124,14 +124,15 @@ public class Populator implements CommandLineRunner {
         Dinosaur Dinosaur11 = new Dinosaur("Baryonyx", baryD);
         DinoRepo.save(Dinosaur11);
 
-        String ankyloD = "Although Amargosaurus had the typical build of a sauropod (i.e. large body, " +
-                "long tail and four pillar-like legs) it had a number of features that differentiated it " +
-                "from other dinosaurs of this type. Its neck was relatively short, and projecting " +
-                "upwards from the neck and back were two rows of tall spines. " +
-                "Along the back of the neck – where the spines were at their tallest – they were " +
-                "up to 60 cm (24in.) in length. They may have been used as defense against predators, " +
-                "as a weapon, or to support a crest, which itself may have been " +
-                "used either for display or heat regulation.";
+        String ankyloD = "The first Ankylosaurus specimen was found in 1906 at the well-known " +
+                "Hell Creek Formation in Montana. The rocks at this location were formed during " +
+                "the Late Cretaceous. The expedition was led by US paleontologist " +
+                "Barnum Brown, who named the Ankylosaurus in 1908. Ankylosaurus is the biggest-known " +
+                "Ankylosaurid. It lived right up to the extinction event that killed off the non-avian dinosaurs. " +
+                "The plant-eating Ankylosaurus was built like a tank, with rows of armored plates " +
+                "running along its body and horns on its head. Its estimated weight was between 5 and 8 tonnes. " +
+                "The dinosaurs was armed with a heavy club at the end of its powerful tail.Any predator " +
+                "thinking about taking on an Ankylosaurus would soon learn that it wouldn’t be an easy meal!";
         Dinosaur Dinosaur12 = new Dinosaur("Ankylosaurus", ankyloD);
         DinoRepo.save(Dinosaur12);
 

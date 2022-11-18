@@ -5,7 +5,7 @@ import DinoQuiz from "../../pages/DinoQuiz";
 const PageSwitch = () => {
     return (
         <Switch>
-            <Route exact path={'/dinoQuiz'} component={DinoQuiz} />
+                <Route exact path={'/dinoQuiz'} component={DinoQuiz} />
         </Switch>
     )
 }
