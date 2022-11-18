@@ -1,4 +1,5 @@
 .App {
+  display: flex;
   text-align: center;
 }
 
@@ -82,14 +83,3 @@
   width: 200px;
 }
 
-#githubpic {
-  height: 100px;
-}
-
-#linkedinpic {
-  height: 100px;
-}
-
-.tylerphoto{
-  height: 300px;
-}
