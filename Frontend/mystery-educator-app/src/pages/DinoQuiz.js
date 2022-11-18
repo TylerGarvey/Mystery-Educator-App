@@ -7,40 +7,21 @@ import questions from "./Data.json"
 const DinoQuiz = () => {
 
     const [isStartClicked, setIsStartClicked] = useState(false)
-    const [dino, setDino] = useState(null);
+    const [isModalActive, setIsModalActive] = useState(false)
+    const [dinos, setDinos] = useState([]);
     const [index, setIndex] = useState(0);
     const [score, setScore] = useState(0);
 
     useEffect(() => {
         fetch('http://localhost:8080/Dinosaurs')
             .then((res) => res.json())
-            .then((json) => setDino(json))
+            .then((json) => setDinos(json))
     }, [])
 
 
-let playMouse = () => {
+function playMouse() {
     new Audio (mouse).play();
 }
-
-const DinoQuiz = () => (
-    <div>
-        <h1>Dino Quiz!</h1>
-        <h3>Name that dinosaur!</h3>
-        <section className='quiz'>
-            
-            <button onClick={playMouse}>A.</button>
-            <button onClick={playMouse}>B.</button>
-            <button onClick={playMouse}>C.</button>
-            <button onClick={playMouse}>D.</button>
-        </section>
-            
-            <img></img>
-            <h2>Display Name</h2>
-            <p>Description</p>
-        
-    </div>
-    
-)
 
     const Welcome = () => {
         return (
@@ -67,12 +48,14 @@ const DinoQuiz = () => (
         if (e.currentTarget.value === questions[index].correctAnswer) {
             setScore(score + 1);       
         }
-        
+        setIsModalActive(true);
+        playMouse();
     }
 
     function handleNext() {
         setIndex(index + 1);
-
+        setIsModalActive(false);
+        playMouse()
     }
 
     const Question = () => {
@@ -84,13 +67,16 @@ const DinoQuiz = () => (
                     <h3>Score: {score} / 15</h3>
                 </div>
                 <div>
-                    <button onClick={handleCheckAnswer} value={getAnswer(0)}>A. {getAnswer(0)}</button>
+                    <button 
+                    onClick={handleCheckAnswer} value={getAnswer(0)}>A. {getAnswer(0)}</button>
                     <button onClick={handleCheckAnswer} value={getAnswer(1)}>B. {getAnswer(1)}</button>
                 </div>
                 <div>
                     <button onClick={handleCheckAnswer} value={getAnswer(2)}>C. {getAnswer(2)}</button>
                     <button onClick={handleCheckAnswer} value={getAnswer(3)}>D. {getAnswer(3)}</button>
                 </div>
+                <p style={{display: isModalActive ? 'flex' : 'none'}}>
+                    {dinos[index].description}</p>
                 <div>
                     <button onClick={handleNext}>Next</button>
                 </div>
