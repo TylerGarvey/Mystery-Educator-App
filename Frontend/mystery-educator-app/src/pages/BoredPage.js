@@ -15,6 +15,10 @@ const BoredPage =() => {
                 setLoading(false);
             });
     }
+
+    function refreshPage() {
+        window.location.reload(false);
+    }
        
     useEffect(() => {loadActivity();}, []);
         
@@ -39,7 +43,7 @@ const BoredPage =() => {
                 </ul>
             </div>
             <div className='boredButtonContainer'>       
-                <button disabled={loading} onClick={() => {loadActivity(); playAudio()}} type="text" className="boredButton">Sounds boring, try something else</button>
+                <button disabled={loading} onClick={() => {loadActivity(); playAudio(); refreshPage()}} type="text" className="boredButton">Sounds boring, try something else</button>
             </div>         
         </div>        
     ) 

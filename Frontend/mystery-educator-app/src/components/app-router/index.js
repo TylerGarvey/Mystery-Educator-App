@@ -17,7 +17,7 @@ const PageSwitch = () => {
       <Route exact path={'/contact'} component={Contact} />
       <Route exact path={'/dinoQuiz'} component={DinoQuiz} />
       <Route exact path={'/boredApi'} component={BoredPage} />
-      <Route exact path={'/animal'} component={Animal} />
+      <Route exact path={'/animalApi'} component={Animal} />
     </Switch>
   )
 

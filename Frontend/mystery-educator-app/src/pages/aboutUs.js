@@ -18,7 +18,6 @@ const About = () => (
     
         <section id="Ayanle">
             <h2>Ayanle Dahir</h2>
-
             <img class="photo" src="" alt="photo" />
              <p class> I've always loved computers so that is why I wanted to become a software developer. I also love playing and watching sports in my free time.
              </p>
@@ -27,18 +26,27 @@ const About = () => (
                 </a>
             <a id="linkedin" href="https://www.linkedin.com/in/ayanle-dahir-770b30250/">
              <img id="linkedin" src={linkedinpic} alt="linkedin" />
+            </a>
+            <a id="linkedin" href="https://www.linkedin.com/in/ayanle-dahir-770b30250/">
+             <img id="linkedin" src={linkedinpic} alt="linkedin" />
+             </a>
 
+            <img className='photo' src="" alt="photo" />
+              <p class> uncomment the p element and write about your your bios 
+             </p> 
+            <a id="github" href="">
+            <img  id="githubpic" src={githubpic} alt="github" />
             </a>
             <a id="linkedin" href="">
              <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
              </a>
             </section>
         
-         <section id="Zekariye">
+        <section id="Zekariye">
              <h2>Zekariye Isse</h2>
              <img className='photo' src="" alt="photo" />
-             {/* <p className='bios'> uncomment the p element and write about your your bios 
-            </p> */}
+              <p className='bios'> uncomment the p element and write about your your bios 
+            </p> 
             <a id="github" href="">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
@@ -60,7 +68,6 @@ const About = () => (
             <a id="linkedin" href="https://www.linkedin.com/in/jacob-davis-6bb4ab75/">
             <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
             </a>
-            
         </section>
 
         <section id="Corey">
@@ -99,9 +106,9 @@ const About = () => (
             <a id="github" href="https://github.com/michaeldiodore">
             <img  id="githubpic" src={githubpic} alt="github" />
             </a>
-            <a id="linkedin" href="https://www.linkedin.com/in/michael-diodore-a102b017b/">
-            <img id="linkedinpic" src={linkedinpic} alt="linkedin" />
-            </a>
+            <a id="linkedin" href="">
+            <img id="linkedin" src={linkedinpic} alt="linkedin" />
+             </a>
         </section>
     </main>
 </div>

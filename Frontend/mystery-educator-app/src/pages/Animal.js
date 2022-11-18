@@ -17,18 +17,22 @@ useEffect(() => {
     }
 },[])
 
+function refreshPage() {
+    window.location.reload(false);
+}
+
 return (
-    <div> 
-       {loading ?  <h1> loading.. </h1> : 
+    <div className="animalApi"> 
+     { loading ?  <h1> loading.. </h1> : 
        
-       <div>
-       <p> name : {animal.name} </p>
-       <p> animal type: {animal.animal_type} </p>
-       <p> animal lifespan: {animal.lifespan} </p> 
-       <p> animal diet: {animal.diet} </p> 
-       <p> animal geo range: {animal.geo_range} </p>
-       <button onClick="window.location.reload()"> new animal data</button>
-       </div>
+        <div>
+            <p> Name : {animal.name} </p>
+            <p> Animal type: {animal.animal_type} </p>
+            <p> Animal lifespan: {animal.lifespan} </p> 
+            <p> Animal diet: {animal.diet} </p> 
+            <p> Animal geo range: {animal.geo_range} </p>
+            <button onClick= {refreshPage}> New Animal Data</button>
+        </div>
        }
     </div>
     
