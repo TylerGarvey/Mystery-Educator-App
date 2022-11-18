@@ -9,7 +9,8 @@ import Animal from "../../pages/Animal";
 
 
 const PageSwitch = () => {
-  return (
+
+    return (
     <Switch>
       <Route exact path={'/'} component={HomePage} />
       <Route exact path={'/aboutUs'} component={aboutUs} />
@@ -19,6 +20,12 @@ const PageSwitch = () => {
       <Route exact path={'/animal'} component={Animal} />
     </Switch>
   )
+
+  return (
+        <Switch>
+                <Route exact path={'/dinoQuiz'} component={DinoQuiz} />
+        </Switch>
+    )
 }
 
 export default PageSwitch

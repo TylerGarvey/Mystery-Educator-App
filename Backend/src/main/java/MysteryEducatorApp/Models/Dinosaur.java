@@ -11,8 +11,6 @@ public class Dinosaur {
     @Id
     @GeneratedValue
     private long id;
-
-
     private String name;
     @Column(length = 1000)
     private String description;
