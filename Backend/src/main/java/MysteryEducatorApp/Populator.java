@@ -10,6 +10,10 @@ public class Populator implements CommandLineRunner {
 
     private DinosaurRepository DinoRepo;
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 51009ca5c7b47fc3d301f8f9fd221f12c86c8fd3
     public Populator(DinosaurRepository DinoRepo) {
         this.DinoRepo = DinoRepo;
     }
