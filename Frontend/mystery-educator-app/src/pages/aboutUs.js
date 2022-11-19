@@ -1,4 +1,4 @@
- import Ayanle from "..//Img_4990.jpg";
+ import Ayanle from "../assets/IMG_4990.jpg";
 // import Zekariye from "";
 // import Jacob from "";
 import Corey from '../assets/Corey 2019.jpg';
@@ -22,14 +22,11 @@ const About = () => (
              <p class> I've always loved computers so that is why I wanted to become a software developer. I also love playing and watching sports in my free time.
              </p>
             <a id="github" href="https://github.com/Ayanle6">
-            <img  id="github" src={githubpic} alt="github" />
+            <img  id="github" src={gitHub} alt="github" />
                 </a>
             <a id="linkedin" href="https://www.linkedin.com/in/ayanle-dahir-770b30250/">
-             <img id="linkedin" src={linkedinpic} alt="linkedin" />
+             <img id="linkedin" src={linkedIn} alt="linkedin" />
             </a>
-            <a id="linkedin" href="https://www.linkedin.com/in/ayanle-dahir-770b30250/">
-             <img id="linkedin" src={linkedinpic} alt="linkedin" />
-             </a>
              </section>
         
         <section id="Zekariye">
@@ -53,10 +50,10 @@ const About = () => (
              new places and go out to drink coffee with my wife. 
              </p>
             <a id="github" href="https://github.com/JDavis01">
-            <img  id="githubpic" src={githubpic} alt="github" />
+            <img  id="githubpic" src={gitHub} alt="github" />
             </a>
             <a id="linkedin" href="https://www.linkedin.com/in/jacob-davis-6bb4ab75/">
-            <img id="linkedinpic" src={linkedinpic}  alt="linkedin" />
+            <img id="linkedinpic" src={linkedIn}  alt="linkedin" />
             </a>
         </section>
 
@@ -76,7 +73,7 @@ const About = () => (
 
         <section id="Tyler">
             <h2>Tyler Garvey</h2>
-            <img className='photo' src="" alt='photo' />
+            <img className='photo' src={Tyler} alt='photo' />
               <p>I am a budding software developer and soon to be father. Weather permitting, you can usually find me in the outdoors kayaking, fishing, or bushwhacking through the Ohio landscape. I also hold certification as a dog trainer, so you can usually find my trusty (and well behaved) dogs right behind me. </p>
             <a id="github" href="https://github.com/TylerGarvey">
             <img  id="github" src={gitHub} alt="github" />
@@ -88,14 +85,14 @@ const About = () => (
 
         <section id="Michael">
             <h2>Michael Diodore</h2>
-            <img class="photo" src="" alt="photo" />
+            <img class="photo" src={Michael} alt="photo" />
              <p class> uncomment the p element and write about your your bios  
             </p>
             <a id="github" href="https://github.com/michaeldiodore">
-            <img  id="githubpic" src={githubpic} alt="github" />
+            <img  id="githubpic" src={gitHub} alt="github" />
             </a>
             <a id="linkedin" href="">
-            <img id="linkedin" src={linkedinpic} alt="linkedin" />
+            <img id="linkedin" src={linkedIn} alt="linkedin" />
              </a>
         </section>
     </main>

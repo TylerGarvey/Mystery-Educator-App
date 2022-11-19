@@ -134,6 +134,7 @@ const DinoQuiz = () => {
             setisNextButtonDisplayed(true);
             setIsButtonDisabled(false);
             setIsNextDisabled(true);
+            setIsModalActive(false);
         }
         if (index > 10) {
             setIsBonusDisplayed(false);
