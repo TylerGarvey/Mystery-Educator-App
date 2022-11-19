@@ -14,12 +14,12 @@
     {
         "question": "What is this dinosaur?",
         "answers": [
-            "Stegocerus",
+            "Stegoceras",
             "Ozraptor",
             "Paranthodon",
             "Saturnalia"
         ],
-        "correctAnswer": "Stegocerus",
+        "correctAnswer": "Stegoceras",
         "image": "img2.png"
     },
 

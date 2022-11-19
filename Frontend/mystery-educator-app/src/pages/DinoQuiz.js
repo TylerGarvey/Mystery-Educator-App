@@ -142,7 +142,7 @@ const DinoQuiz = () => {
     }
 
     function getMessage() {
-        if (score == 15) {
+        if (score === 15) {
             return <h3>You are a dinosaur connoisseur!</h3>
         }
         else if (score > 10) {
