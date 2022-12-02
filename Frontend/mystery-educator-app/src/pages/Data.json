@@ -8,19 +8,19 @@
             "Oviraptor"
         ],
         "correctAnswer": "Brachiosaurus",
-        "image": "img1.jpg"
+        "image": "img1.png"
     },
 
     {
         "question": "What is this dinosaur?",
         "answers": [
-            "Stegocerus",
+            "Stegoceras",
             "Ozraptor",
             "Paranthodon",
             "Saturnalia"
         ],
-        "correctAnswer": "Stegocerus",
-        "image": "img2.jpg"
+        "correctAnswer": "Stegoceras",
+        "image": "img2.png"
     },
 
     {
@@ -32,7 +32,7 @@
             "Brontomerus"
         ],
         "correctAnswer": "Stegosaurus",
-        "image": "img3.jpg"
+        "image": "img3.png"
     },
 
     {
@@ -44,7 +44,7 @@
             "Spinosaurus"
         ],
         "correctAnswer": "Spinosaurus",
-        "image": "img4.jpg"
+        "image": "img4.png"
     },
 
     {
@@ -68,7 +68,7 @@
             "Talos"
         ],
         "correctAnswer": "Velociraptor",
-        "image": "img6.jpg"
+        "image": "img6.png"
     },
 
     {
@@ -80,7 +80,7 @@
             "Carnotaurus"
         ],
         "correctAnswer": "Carnotaurus",
-        "image": "img7.jpg"
+        "image": "img7.png"
     },
 
     {
@@ -92,7 +92,7 @@
             "Nebulasaurus"
         ],
         "correctAnswer": "Deinonychus",
-        "image": "img8.jpg"
+        "image": "img8.png"
     },
 
     {
@@ -104,7 +104,7 @@
             "Camarasaurus"
         ],
         "correctAnswer": "Parasaurolophus",
-        "image": "img9.jpg"
+        "image": "img9.png"
     },
 
     {
@@ -116,7 +116,7 @@
             "Tyrannosaurus"
         ],
         "correctAnswer": "Tyrannosaurus",
-        "image": "img10.jpg"
+        "image": "img10.png"
     },
 
     {
@@ -128,7 +128,7 @@
             "Diplodocus"
         ],
         "correctAnswer": "Baryonyx",
-        "image": "img11.jpg"
+        "image": "img11.png"
     },
 
     {
@@ -140,7 +140,7 @@
             "Palaeoscincus"
         ],
         "correctAnswer": "Ankylosaurus",
-        "image": "img12.jpg"
+        "image": "img12.png"
     },
 
     {
@@ -152,7 +152,7 @@
             "Barosaurus"
         ],
         "correctAnswer": "Megalosaurus",
-        "image": "img13.jpg"
+        "image": "img13.png"
     },
 
     {
@@ -164,7 +164,7 @@
             "Camarasaurus"
         ],
         "correctAnswer": "Amargosaurus",
-        "image": "img14.jpg"
+        "image": "img14.png"
     },
 
     {
@@ -176,6 +176,6 @@
             "Giganotosaurus"
         ],
         "correctAnswer": "Giganotosaurus",
-        "image": "img15.jpg"
+        "image": "img15.png"
     }
 ]
