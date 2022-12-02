@@ -1,6 +1,4 @@
-// import Ayanle from "";
-// import Zekariye from "";
-// import Jacob from "";
+
 import Corey from '../assets/Corey 2019.jpg';
 import Tyler from '../assets/Tyler.jpg'
 import Michael from "../assets/michael.jpg";
@@ -8,7 +6,6 @@ import Jacob from "../assets/jacob.png"
 import './homePage.css'
 import githubpic from '../assets/github.png'
 import linkedinpic from '../assets/linkedin.png'
-// ^ just place holders for later
 
 const About = () => (
   
